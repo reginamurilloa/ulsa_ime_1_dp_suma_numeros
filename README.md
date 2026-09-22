@@ -1,6 +1,7 @@
 # Práctica 1: Suma de 5 números
 ## 1. Descripción del problema (Fase 1)
-<!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
+<!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. --> 
+En el programa se busca que la suma de los números se pueda ejecutar de manera más facil, sin tener tanta complejidad, esto serviria para hacer calculos de maneras más rapida cuando sean aporaciones grandes
 
 _____
 
@@ -9,35 +10,39 @@ _____
 
 **Entradas:**
 1. _____
+¿Qué operación quieres realizar? (suma)
+¿Qué números deseas sumar?
+
 
 **Salidas:**
 1. _____
+Resultado de los números sumados 
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
-**Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+**Restricciones** (¿qué debe cumplirse?): 
+- Sean 5 valores a sumar
+- No números romanos
 
 **Decisión sobre negativos y decimales** (¿los acepto? ¿por qué?):
-_____
+si, implementar los negativos y decimales para tener mayor experiencia 
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
-_____
+Que el valor que sale al final es la suma de los terminos anteriores 
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Números | Suma calculada a mano |
 |---|---|---|
-| 1 | _____ | _____ |
-| 2 | _____ | _____ |
-| 3 | _____ | _____ |
+| 1 | 4 | 4 | 
+| 2 | 32 | 36 |  
+| 3 | 45 | 81 |  
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
 
-**¿Probé mi receta a mano con un caso?** Sí / No
-**¿Tuve que corregirla?** _____
+**¿Probé mi receta a mano con un caso?** Sí 
+**¿Tuve que corregirla?** si, agustando la parte del contador, para que me diera 
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
 
@@ -49,9 +54,7 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o suma
 ## 7. Ejemplo de ejecución (Fase 3)
 <!-- Pega aquí lo que muestra tu programa en pantalla con un caso normal. -->
 
-```
-_____
-```
+
 
 ## 8. Experimentos (Fase 3)
 

@@ -1,12 +1,15 @@
 # Receta: Suma de 5 números
 
 1. Mostrar mensaje de bienvenida
-2. suma ← ______
-3. contador ← ______
-4. MIENTRAS contador ______ 5 HACER
-       Pedir al usuario el número ______
+2. suma 0
+3. contador 0
+4. MIENTRAS contador <=5 HACER;
+       "Pedir al usuario el número 1"
        Leer el número
-       suma ← ______
-       contador ← ______
+       SI número ES numerico:
+       suma + número
+       SI NO
+       "error: No es un número"
+       contador: contador + 1
    FIN MIENTRAS
-5. Mostrar ______
+5. Mostrar suma
