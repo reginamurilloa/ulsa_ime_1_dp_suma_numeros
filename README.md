@@ -25,7 +25,7 @@ Resultado de los números sumados
 - No números romanos
 
 **Decisión sobre negativos y decimales** (¿los acepto? ¿por qué?):
-si, implementar los negativos y decimales para tener mayor experiencia 
+si, implementar los negativos y decimales para tener mayor experiencia en el codigo
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
 Que el valor que sale al final es la suma de los terminos anteriores 
@@ -53,37 +53,59 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o suma
 
 ## 7. Ejemplo de ejecución (Fase 3)
 <!-- Pega aquí lo que muestra tu programa en pantalla con un caso normal. -->
-
+regina_mua@MacBook-Air-de-Regina-2 ulsa_ime_1_dp_suma_numeros % g++ -Wall -Wextra -std=c++17 main.cpp -o suma
+regina_mua@MacBook-Air-de-Regina-2 ulsa_ime_1_dp_suma_numeros % ./suma
+Ingrese un numero 1: 3
+Ingrese un numero 2: 12
+Ingrese un numero 3: 10
+Ingrese un numero 4: 2
+Ingrese un numero 5: 8
+La suma de los 5 numeros es: 35 
 
 
 ## 8. Experimentos (Fase 3)
 
 **Experimento A: ¿qué pasó al no inicializar `suma`?**
-_____
+Te de la suma como si fuera un porcentaje al finalizar
 
-**Experimento B (opcional): ¿qué pasó al usar `int` con 2.5?**
-_____
+regina_mua@MacBook-Air-de-Regina-2 ulsa_ime_1_dp_suma_numeros % g++ -Wall -Wextra -std=c++17 main.cpp -o suma
+regina_mua@MacBook-Air-de-Regina-2 ulsa_ime_1_dp_suma_numeros % ./suma
+Ingrese un numero 
+4
+Ingrese un numero 
+5
+Ingrese un numero 
+6
+Ingrese un numero 
+7
+Ingrese un numero 
+8
+Suma de 5 numeros
+Suma: 30% 
+
+
+
 
 ## 9. Tabla de pruebas (Fase 4)
 
 | Caso | Números | Esperado | Obtenido | ¿Pasó? |
 |---|---|---|---|---|
-| Del 1 al 5 | 1 a 5 | 15 | _____ | _____ |
-| Todos ceros | 0 ×5 | 0 | _____ | _____ |
-| Con negativos | _____ | _____ | _____ | _____ |
-| Decimales | 0.5 ×5 | 2.5 | _____ | _____ |
-| Todos iguales | 7 ×5 | 35 | _____ | _____ |
-| Caso propio 1 | _____ | _____ | _____ | _____ |
-| Caso propio 2 | _____ | _____ | _____ | _____ |
+| Del 1 al 5 | 1 a 5 | 15 | 15 | Me dio el valor correcto |
+| Todos ceros | 0 ×5 | 0 | 0 | Me dio el resultado correcto |
+| Con negativos | -1 a -5 | -15 | numero no valido | no me deja ingresar valores negativos, ya que estamos realizando sumas |
+| Decimales | 0.5 ×5 | 2.5 | 2.5 | Me dio el resultado correcto |
+| Todos iguales | 7 ×5 | 35 | 35 | Me dio el resultado correcto |
+| Caso propio 1 | 10 al 14 | 60 | 60 | Me dio resultado correcto de la suma |
+| Caso propio 2 | 2,3,4,5.5,6 | 20.5 | 20.5 | sumo de manera adecuada numeros enteros y decimales |
 
 ## 10. Bitácora de mejoras (Fase 4)
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
+| 1 | Los numeros negativos | _____ | _____ |
 | 2 | _____ | _____ | _____ |
 
-**Reto elegido (opcional):** _____
+
 
 ## 11. Dudas para el profesor (Fase 3)
 

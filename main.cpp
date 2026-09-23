@@ -8,7 +8,7 @@ int main() {
     int contador = 0;
 
     // 2. Variables (siempre inicializadas)
-    double suma   = 0.0;
+    double suma = 0.0;
     double numero = 0.0;
 
     // 3. Ciclo: repetir CANTIDAD veces
