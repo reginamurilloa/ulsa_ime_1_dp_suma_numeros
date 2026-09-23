@@ -13,7 +13,7 @@ int main() {
 
     // 3. Ciclo: repetir CANTIDAD veces
     while (contador < 5) {
-        std::cout << "Ingrese un numero " << std::endl;
+        std::cout << "Ingrese un numero " 
         std::cin >> numero;
 
         if(numero >= 0) {

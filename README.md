@@ -3,19 +3,19 @@
 <!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. --> 
 En el programa se busca que la suma de los números se pueda ejecutar de manera más facil, sin tener tanta complejidad, esto serviria para hacer calculos de maneras más rapida cuando sean aporaciones grandes
 
-_____
+
 
 ## 2. Entradas y salidas (Fase 1)
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
 
 **Entradas:**
-1. _____
+1. 
 ¿Qué operación quieres realizar? (suma)
 ¿Qué números deseas sumar?
 
 
 **Salidas:**
-1. _____
+1. 
 Resultado de los números sumados 
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
@@ -25,7 +25,7 @@ Resultado de los números sumados
 - No números romanos
 
 **Decisión sobre negativos y decimales** (¿los acepto? ¿por qué?):
-si, implementar los negativos y decimales para tener mayor experiencia en el codigo
+si, implementar los decimales para tener mayor experiencia en el codigo, sin embargo los negativos no
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
 Que el valor que sale al final es la suma de los terminos anteriores 
@@ -101,31 +101,39 @@ Suma: 30%
 ## 10. Bitácora de mejoras (Fase 4)
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
-|---|---|---|---|
-| 1 | Los numeros negativos | _____ | _____ |
-| 2 | _____ | _____ | _____ |
+| 1 |  cout << "Ingrese un numero " |  std::cout << "Ingrese un numero "  | si funciono de manera adecueda |
+| 2 | }else{ | la manera de acomodarlo en el codigo, ya que no me dejaba avanzar y me marcaba mucho errores | si |
 
 
 
 ## 11. Dudas para el profesor (Fase 3)
 
 | Duda | Lo que ya intenté |
-|---|---|
-| _____ | _____ |
+| Como modifico el codigo para que tambien acepte numeros negativos | lo intente modificar en esta parte 
+ if(numero >= 0) {
+            suma += numero;
+            contador++;
+        }else{
+            std::cout << "numero no valido"; 
+
+Sin embargo no supe como modificar para que si acepte negativos|
+
+
 
 ## 12. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+Lo importante que es primero desarrollar lo que vas a hacer y luego crear el codigo, siguiendo los pasos 
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+prestar más atención a los detalles y analizar bien que es lo que quiero hacer para crear el codigo
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+main.cpp 
+ejecutar el codigo, lo resolvi con ayuda del documento que el profe nos dejo, con trabajos anteriores y explicación en clase de como ejecutar el trabajo 
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+ninguna
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 
